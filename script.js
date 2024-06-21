@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
            
             if (expandElement.style.display === 'block' || expandElement.style.display === '') {
                 expandElement.style.display = 'none';
-                 headerOne.style.color = 'initial';
+                
                  headerOne.style.backgroundColor = 'initial';
+                 headerOne.style.color = 'initial';
                
                
             } else {
