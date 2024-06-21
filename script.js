@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (expandElement.style.display === 'block' || expandElement.style.display === '') {
                 expandElement.style.display = 'none';
                  headerOne.style.backgroundColor = 'initial';
-                  headerOne.style.color = 'initial';
+                  headerOne.style.color = '#000';
                 toggleIcon.classList.remove('rotate');
                
             } else {
