@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
            
             if (expandElement.style.display === 'block' || expandElement.style.display === '') {
                 expandElement.style.display = 'none';
+                 headerOne.style.color = 'initial';
                  headerOne.style.backgroundColor = 'initial';
-                  headerOne.style.color = 'initial';
                 toggleIcon.classList.remove('rotate');
                
             } else {
                 expandElement.style.display = 'block';
                  headerOne.style.backgroundColor = '#F5FCFF';
-                  headerOne.style.color = '#00ADEE';
+                   headerOne.style.color = '#00ADEE';
                 toggleIcon.classList.add('rotate');
             }
         });
