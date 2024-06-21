@@ -4,17 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
         section.addEventListener('click', function() {
             const expandElement = section.querySelector('.expand');
             const toggleIcon = section.querySelector('.toggle-icon-1');
-            const highlight = section.querySelector('.highlight')
+            const  headerOne = section.querySelector('.highlight')
             if (expandElement.style.display === 'block' || expandElement.style.display === '') {
                 expandElement.style.display = 'none';
-                 highlight.style.backgroundColor = 'initial'
-                 highlight.style.color = 'initial'
+                 headerOne.style.backgroundColor = 'initial';
+                 highlight.style.color = 'initial';
                 toggleIcon.classList.remove('rotate');
                
             } else {
                 expandElement.style.display = 'block';
-                 highlight.style.backgroundColor = '#F5FCFF'
-                 highlight.style.color = '#00ADEE'
+                 headerOne.style.backgroundColor = '#F5FCFF';
+                  headerOne.style.color = '#00ADEE';
                 toggleIcon.classList.add('rotate');
             }
         });
